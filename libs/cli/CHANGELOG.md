@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.0.35](https://github.com/langchain-ai/deepagents/compare/deepagents-cli==0.0.34...deepagents-cli==0.0.35) (2026-03-18)
+
+
+### Features
+
+* **cli:** add animated spinner to non-interactive verbose mode ([#2001](https://github.com/langchain-ai/deepagents/issues/2001)) ([153f465](https://github.com/langchain-ai/deepagents/commit/153f465937c09a792119a0e0c8656fa8df29d4e5))
+* **cli:** enhance tool-call UI, add `Ctrl+U` shortcut for chat input ([#1757](https://github.com/langchain-ai/deepagents/issues/1757)) ([800c552](https://github.com/langchain-ai/deepagents/commit/800c55213aa4c6515759fb70d36af370feb86302))
+* **cli:** show platform-specific ripgrep install command in missing-tool warning ([#1997](https://github.com/langchain-ai/deepagents/issues/1997)) ([f000ce5](https://github.com/langchain-ai/deepagents/commit/f000ce58ebb6438397e8eb016b2a788a91fe5754))
+* **sdk:** rename backend methods ([#1907](https://github.com/langchain-ai/deepagents/issues/1907)) ([7665066](https://github.com/langchain-ai/deepagents/commit/7665066c093c2583c4cd3bf83515b0906277306f))
+
+
+### Bug Fixes
+
+* **cli:** human-readable duration and consistent dim styling on teardown screen ([#1995](https://github.com/langchain-ai/deepagents/issues/1995)) ([901a0a4](https://github.com/langchain-ai/deepagents/commit/901a0a400fccfafbef069d6632acb2227f0aef41))
+* **cli:** isolate test history writes from real history file ([#2006](https://github.com/langchain-ai/deepagents/issues/2006)) ([a078257](https://github.com/langchain-ai/deepagents/commit/a078257ba6f9d9cae540f6eb82a0eabc92d71211))
+* **cli:** misleading "missing package" error when provider import fails ([#1960](https://github.com/langchain-ai/deepagents/issues/1960)) ([b90fbad](https://github.com/langchain-ai/deepagents/commit/b90fbad1335222a3b7ceb469f7f46fedec79ac61))
+* **cli:** pre-flight health checks for MCP servers ([#2008](https://github.com/langchain-ai/deepagents/issues/2008)) ([30d60e3](https://github.com/langchain-ai/deepagents/commit/30d60e3866bde51a71f607fcd5cbe9dd75c5da75))
+* **cli:** prevent premature thinking state with parallel subtasks ([#1858](https://github.com/langchain-ai/deepagents/issues/1858)) ([189104c](https://github.com/langchain-ai/deepagents/commit/189104c622a5fa874ad1d4be1c18e012cafd605a))
+* **cli:** slash commands should not require server connection / queue ([#1974](https://github.com/langchain-ai/deepagents/issues/1974)) ([32bd814](https://github.com/langchain-ai/deepagents/commit/32bd814b98a079778dad092a2e877d8eba22b0fb))
+* **cli:** surface clear error for missing sandbox provider deps ([#1999](https://github.com/langchain-ai/deepagents/issues/1999)) ([939f56a](https://github.com/langchain-ai/deepagents/commit/939f56a19244714fc53158a2fd162e3098b3d56c))
+
 ## [0.0.34](https://github.com/langchain-ai/deepagents/compare/deepagents-cli==0.0.33...deepagents-cli==0.0.34) (2026-03-17)
 
 ### Features
